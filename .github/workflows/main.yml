@@ -10,7 +10,7 @@ env:
     ( github.ref == 'refs/heads/develop' && 'dev')
     || ( github.ref == 'refs/heads/qa' && 'qa')
     || ( github.ref == 'refs/heads/stage' && 'stage')
-    || ( github.ref == 'refs/heads/master' && 'blue')
+    || ( github.ref == 'refs/heads/master' && 'green')
     || 'unspecified'
     }}
   CLUSTER_PROJECT_NAME: hello-cluster
